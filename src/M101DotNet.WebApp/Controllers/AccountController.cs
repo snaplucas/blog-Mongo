@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Security.Claims;
+﻿using System.Security.Claims;
 using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
@@ -11,7 +8,7 @@ using M101DotNet.WebApp.Models.Account;
 
 namespace M101DotNet.WebApp.Controllers
 {
-    [AllowAnonymous]
+	[AllowAnonymous]
     public class AccountController : Controller
     {
         [HttpGet]

@@ -1,13 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Web;
+﻿using System.ComponentModel.DataAnnotations;
 using System.Web.Mvc;
 
 namespace M101DotNet.WebApp.Models.Account
 {
-    public class LoginModel
+	public class LoginModel
     {
         [Required]
         [DataType(DataType.EmailAddress)]
